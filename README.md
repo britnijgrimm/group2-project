@@ -7,8 +7,11 @@ Because one of our members is located in India, we plan to communicate through W
 
 ### Presentation
 **Selected topic:** Attendance data for medical appointments in Brazil
+
 **Reason why they selected their topic:** Miguel already had the data set in mind. Medical services are necessary for our health and well-being.
+
 **Description of their source of data:** Dataset is available on Kaggle. Data provided by Aquarela Advanced Analytics (Brazil).
+
 **Questions they hope to answer with the data:**
 - Which neighborhood regions have higher attendance rates for appointments? Can this predict demand for physician services?
 - If physicians can predict a certain percentage of no-shows for appointments, could they then schedule additional appointments for the day?
