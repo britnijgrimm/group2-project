@@ -5,7 +5,7 @@
 ### Communication Protcols
 Because one of our members is located in India, we plan to communicate through WhatsApp and meet one to two times per week via Zoom to discuss challenges, progress and request feedback from the team.
 
-### Presenation
+### Presentation
 **Selected topic:** Attendance data for medical appointments in Brazil
 **Reason why they selected their topic:** Miguel already had the data set in mind. Medical services are necessary for our health and well-being.
 **Description of their source of data:** Dataset is available on Kaggle. Data provided by Aquarela Advanced Analytics (Brazil).
