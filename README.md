@@ -3,7 +3,7 @@
 *Final Project for Dataviz Bootcamp*
 
 ### Communication Protcols
-Because one of our members is located in India, we plan to communicate through WhatsApp and meet one to two times per week via Zoom to discuss challenges, progress and request feedback from the team.
+Because one of our members is located in India, we plan to communicate through Slack and WhatsApp. We plan to meet one to two times per week via Zoom to discuss challenges, progress and request feedback from the team.
 
 ### Presentation
 **Selected topic:** Attendance data for medical appointments in Brazil
