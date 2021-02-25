@@ -8,6 +8,8 @@ Because one of our members is located in India, we have been communicating throu
 ### Presentation
 [Prelimary Google Slides draft](https://docs.google.com/presentation/d/1KnfV81sn4rcIU7k441lGYwDic_OFUhTXXSnzvUqHuO4/edit?usp=sharing)
 
+[Preliminary Tablaeu Dashboard](https://public.tableau.com/profile/britni.grimm#!/vizhome/BrazilPublicHealthData/Dashboard1?publish=yes)
+
 **Selected topic:** Attendance data for medical appointments in Brazil
 
 **Reason why they selected their topic:** Miguel already had the data set in mind. Medical services are necessary for our health and well-being.
