@@ -7,7 +7,7 @@
 **Selected topic:** Attendance data for medical appointments in Brazil
 
 **Reason why they selected their topic:** 
-I work in a hospital and immediately, when I saw this data, it caught my attention because for me it is very important to see the reasons why patients miss their appointments considering many factors, included in this dataset.
+I work in a hospital and immediately when I saw this data, it caught my attention because for me it is very important to see the reasons why patients miss their appointments considering many factors, included in this dataset.
 
 **Description of their source of data:** Dataset is available on Kaggle. Data provided by Aquarela Advanced Analytics (Brazil).
 
