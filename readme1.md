@@ -6,12 +6,12 @@ Link to the license file: License:https://www.kaggle.com/joniarroba/noshowappoin
 
 <br>Uploaded the data to Amazon servers using S3
 Data Header	Data Meaning				Type
-PatientId	Identification of a patient		general
+PatientId	Identification of a patient		number
 AppointmentID	Identification of each appointment	general
 Gender		Male or Female				general
 AppointmentDay	Day of actual appointment		general
 ScheduledDay	The day appointment made		general
-Age		Age of the patient			general
+Age		Age of the patient			number
 Neighbourhood	Where the appointment takes place	general
 Scholarship	If patient is in welfare program	general
 Hipertension	 If the patient has Hipertension	general
@@ -29,6 +29,7 @@ No-show	If the patient showed up for appointment	general
 <br>
 
 Data		Datatype
+PatientID
 AppointmentID	int64
 Gender		object
 ScheduledDay	object
@@ -45,20 +46,6 @@ No-show		object
 dtype:	object
 ![image](https://user-images.githubusercontent.com/55123056/109426109-a0891a00-79a0-11eb-9381-e19d67004f83.png)
 
-<br>AppointmentID      int64
-<br>Gender            object
-<br>ScheduledDay      object
-<br>AppointmentDay    object
-<br>Age                int64
-<br>Neighbourhood     object
-<br>Scholarship        int64
-<br>Hipertension       int64
-<br>Diabetes           int64
-<br>Alcoholism         int64
-<br>Handcap            int64
-<br>SMS_received       int64
-<br>No-show           object
-<br>dtype: object
 <br>
 <br>1-After checking all the unique values AppointmentID became index column
 
