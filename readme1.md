@@ -6,20 +6,7 @@ Link to the license file: License:https://www.kaggle.com/joniarroba/noshowappoin
 
 <br>Uploaded the data to Amazon servers using S3
 Data Header	Data Meaning				Type
-PatientId	Identification of a patient		number
-AppointmentID	Identification of each appointment	general
-Gender		Male or Female				general
-AppointmentDay	Day of actual appointment		general
-ScheduledDay	The day appointment made		general
-Age		Age of the patient			number
-Neighbourhood	Where the appointment takes place	general
-Scholarship	If patient is in welfare program	general
-Hipertension	 If the patient has Hipertension	general
-Diabetes	If the patient has Diabeties		general
-Alcoholism	If the patient has Alcoholism		general
-Handicap	If the patient Handcapped		general
-SMS_received	If the patient received SMS		general
-No-show	If the patient showed up for appointment	general
+
 ![image](https://user-images.githubusercontent.com/55123056/109426497-cd3e3100-79a2-11eb-93b8-171c27b0ca44.png)
 			
 
@@ -28,22 +15,7 @@ No-show	If the patient showed up for appointment	general
 <br>
 <br>
 
-Data		Datatype
-PatientID
-AppointmentID	int64
-Gender		object
-ScheduledDay	object
-AppointmentDay	object
-Age		int64
-Neighbourhood	object
-Scholarship	int64
-Hipertension	int64
-Diabetes	int64
-Alcoholism	int64
-Handicap	int64
-SMS_received	int64
-No-show		object
-dtype:	object
+
 ![image](https://user-images.githubusercontent.com/55123056/109426109-a0891a00-79a0-11eb-9381-e19d67004f83.png)
 
 <br>
