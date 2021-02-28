@@ -5,24 +5,24 @@ Link to the license file: License:https://www.kaggle.com/joniarroba/noshowappoin
 
 
 <br>Uploaded the data to Amazon servers using S3
-				
- Data directory for excell spreadsheet
- 
- PatientId	  	Identification of a patient		number
-AppointmentID		Identification of each appointment	number
-Gender			Male or Female				text
-AppointmentDay		Day of actual appointment		date-time
-ScheduledDay		The day appointment made		date-time
-Age			Age of the patient			int
-Neighbourhood		Where the appointment takes place	text
-Scholarship		If patient is in welfare program	text
-Hipertension	 	If the patient has Hipertension		text
-Diabetes		If the patient has Diabeties		text
-Alcoholism		If the patient has Alcoholism		text
-Handicap		If the patient Handcapped		text
-SMS_received		If the patient received SMS		text
-No-show			If the patient showed up 		text
-![image](https://user-images.githubusercontent.com/55123056/109425875-5eaba400-799f-11eb-8591-06b14985649d.png)
+Data Header	Data Meaning				Type
+PatientId	Identification of a patient		general
+AppointmentID	Identification of each appointment	general
+Gender		Male or Female				general
+AppointmentDay	Day of actual appointment		general
+ScheduledDay	The day appointment made		general
+Age		Age of the patient			general
+Neighbourhood	Where the appointment takes place	general
+Scholarship	If patient is in welfare program	general
+Hipertension	 If the patient has Hipertension	general
+Diabetes	If the patient has Diabeties		general
+Alcoholism	If the patient has Alcoholism		general
+Handicap	If the patient Handcapped		general
+SMS_received	If the patient received SMS		general
+No-show	If the patient showed up for appointment	general
+![image](https://user-images.githubusercontent.com/55123056/109426497-cd3e3100-79a2-11eb-93b8-171c27b0ca44.png)
+			
+
 <br>
 <br>We have read the csv data into Pandas and turned into dataframe;
 <br>
