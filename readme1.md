@@ -5,27 +5,9 @@ Link to the license file: License:https://www.kaggle.com/joniarroba/noshowappoin
 
 
 <br>Uploaded the data to Amazon servers using S3
-<html>
- <head>
-   <title>Working with HTML Tables</title>
- </head>
- <body>
-   <table>				<!-- create an table object -->
-     <tr>				<!-- "tr" represents a row -->
-       <th>Name</th>	<!-- use "th" to indicate header row -->
-       <th>Date of Birth</th>
-       <th>Weight</th>
-     </tr> 
-     <tr>				<!-- once again use tr for another row -->
-       <td>Mary</td>	<!-- use "td" henceforth for normal rows -->
-       <td>12/13/1994</td>
-       <td>130</td>
-     </tr>    
 				
-   <tr><th>Data directory for excell spreadsheet</th>
-    </tr> 
-	<tr><td>PatientId</td><td>Identification of a patient</td><td>int</td></tr>
-<br>-----   Identification of a patient 							int
+ <h3>Data directory for excell spreadsheet</h3>
+<br>PatientId-----   Identification of a patient 						int
 <br>AppointmentID----Identification of each appointment						int
 <br>Gender-----      Male or Female 								char
 <br>AppointmentDay---Day of actual appointment							date-time
@@ -42,7 +24,6 @@ Link to the license file: License:https://www.kaggle.com/joniarroba/noshowappoin
    </table>
  </body>
 </html>
-<table>
 <br>
 <br>
 <br>We have read the csv data into Pandas and turned into dataframe;
