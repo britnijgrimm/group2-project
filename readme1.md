@@ -28,6 +28,23 @@ No-show			If the patient showed up 		text
 <br>
 <br>
 
+Data		Datatype
+AppointmentID	int64
+Gender		object
+ScheduledDay	object
+AppointmentDay	object
+Age		int64
+Neighbourhood	object
+Scholarship	int64
+Hipertension	int64
+Diabetes	int64
+Alcoholism	int64
+Handicap	int64
+SMS_received	int64
+No-show		object
+dtype:	object
+![image](https://user-images.githubusercontent.com/55123056/109426109-a0891a00-79a0-11eb-9381-e19d67004f83.png)
+
 <br>AppointmentID      int64
 <br>Gender            object
 <br>ScheduledDay      object
