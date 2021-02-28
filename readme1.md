@@ -23,31 +23,6 @@ Handicap		If the patient Handcapped		text
 SMS_received		If the patient received SMS		text
 No-show			If the patient showed up 		text
 ![image](https://user-images.githubusercontent.com/55123056/109425875-5eaba400-799f-11eb-8591-06b14985649d.png)
-
- 
- 
- 
- 
- 
- 
- 
- 
-<br>PatientId,  Identification of a patient,						int,
-<br>AppointmentID,Identification of each appointment,						int,
-<br>Gender,Male or Female, 								char,
-<br>AppointmentDay,Day of actual appointment,							date-time
-<br>ScheduledDay,The day appointment made,							date-time
-<br>Age,Age of the patient,								int
-<br>Neighbourhood,Where the appointment takes place,						char						
-<br>Scholarship,If patient is in welfare program,	char
-<br>Hipertension, If the patient has Hipertension,						char
-<br>Diabetes,If the patient has Diabeties,						char
-<br>Alcoholism,If the patient has Alcoholism,							char
-<br>Handicap,If the patient Handcapped,							char
-<br>SMS_received,If the patient received SMS, 							char
-<br>No-show,If the patient showed up for appointment,
-
-<br>
 <br>
 <br>We have read the csv data into Pandas and turned into dataframe;
 <br>
