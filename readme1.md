@@ -22,9 +22,8 @@ Link to the license file: License:https://www.kaggle.com/joniarroba/noshowappoin
        <td>130</td>
      </tr>    
 				
-     <tr>
-	     <th>Data directory for excell spreadsheet</th>
-     </tr> 
+   <tr><th>Data directory for excell spreadsheet</th>
+    </tr> 
 	<tr><td>PatientId</td><td>Identification of a patient</td><td>int</td></tr>
 <br>-----   Identification of a patient 							int
 <br>AppointmentID----Identification of each appointment						int
