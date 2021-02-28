@@ -21,10 +21,7 @@ Link to the license file: License:https://www.kaggle.com/joniarroba/noshowappoin
        <td>12/13/1994</td>
        <td>130</td>
      </tr>    
-   </table>
- </body>
-</html>
-<table>				
+				
      <tr>
 	     <th>Data directory for excell spreadsheet</th>
      </tr> 
@@ -43,7 +40,10 @@ Link to the license file: License:https://www.kaggle.com/joniarroba/noshowappoin
 <br>Handcap-----	 If the patient Handcapped							char
 <br>SMS_received---	 If the patient received SMS 							char
 <br>No-show-----	 If the patient showed up for appointment 				        char
-
+   </table>
+ </body>
+</html>
+<table>
 <br>
 <br>
 <br>We have read the csv data into Pandas and turned into dataframe;
