@@ -9,23 +9,22 @@ Uploaded the data to Amazon servers using S3
 Data directory for excell spreadsheet
 PatientId-----   Identification of a patient 							int
 AppointmentID----Identification of each appointment						int
-Gender-----      Male or Female 										char
-AppointmentDay---Day of actual appointment								date-time
-ScheduledDay-----The day appointment made								date-time
-Age---           Age of the patient										int
+Gender-----      Male or Female 								char
+AppointmentDay---Day of actual appointment							date-time
+ScheduledDay-----The day appointment made							date-time
+Age---           Age of the patient								int
 Neighbourhood----Where the appointment takes place						char						
 Scholarship----  Is patient part of social welfare program of Brazil	char
 Hipertension---	 If the patient has Hipertension						char
 Diabetes----	 If the patient has Diabetes							char
 Alcoholism----	 If the patient has Alcoholism							char
-Handcap-----	 If the patient Handcapped								char
+Handcap-----	 If the patient Handcapped							char
 SMS_received---	 If the patient received SMS 							char
-No-show-----	 If the patient showed up for appointment 				char
+No-show-----	 If the patient showed up for appointment 				        char
 
 
 We have read the csv data into Pandas and turned into dataframe;
 
-![]
 
 AppointmentID      int64
 Gender            object
@@ -85,8 +84,8 @@ Second data file is file we have created by collecting data from Kaggle and goog
 Data Directory for "mean_income_of_neighborhoods.csv"
 
 Neighbourhood    name of the Neighbourhood   					str
-Income			 median income for the area  					int
-lat, long        latitude and logitude of the neighborhoood		str
+Income			 median income for the area  				int
+lat, long        latitude and logitude of the neighborhoood			str
 
 We have read the file into pandas dataframe as min_df
 
@@ -101,3 +100,6 @@ After data manupulation; a copy of csv file saved to original folder then create
 mans_df.to_sql------name="Appointments" table 
 min_df.to_sql  ---- name="Neighbourhood_data" table 
 
+![](https://github.com/britnijgrimm/group2-project/blob/datamanupulation/pgadmintables.JPG)
+
+![](https://github.com/britnijgrimm/group2-project/blob/datamanupulation/Tableau_connection.JPG)
