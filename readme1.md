@@ -61,9 +61,8 @@ Data Header	Data Meaning				Type
 <br>
 <br>Data Directory for "mean_income_of_neighborhoods.csv"
 <br>
-<br>Neighbourhood    name of the Neighbourhood   					str
-<br>Income			 median income for the area  				int
-<br>lat, long        latitude and logitude of the neighborhoood			str
+![image](https://user-images.githubusercontent.com/55123056/109426845-818c8700-79a4-11eb-8226-c751609a3efe.png)
+
 <br>
 <br>
 We have read the file into pandas dataframe as min_df
