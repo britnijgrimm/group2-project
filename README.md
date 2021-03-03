@@ -14,5 +14,7 @@ WE have decided to use No show appointments database and here is the dataflow wi
 
 4-Everyone should pull the data from AWS-SQL server and use it, for machine learning, datadashboard, charts...
 
+![](https://github.com/britnijgrimm/group2-project/blob/rens_branch/db_idea.JPG)
+
 
 
