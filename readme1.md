@@ -1,48 +1,27 @@
+<h2>Data origin and manupulations for No Show Medical Appointments Group2 project</h2>
+
 The dataset we used is from Kaggle.com provided by JoniHoppen 
 link to the data: ttps://www.kaggle.com/joniarroba/noshowappointments
 Link to the license file: License:https://www.kaggle.com/joniarroba/noshowappointments
 
 
 
-Uploaded the data to Amazon servers using S3
+<br>Uploaded the data to Amazon servers using S3
+Data Header	Data Meaning				Type
 
-Data directory for excell spreadsheet
-PatientId-----   Identification of a patient 							int
-AppointmentID----Identification of each appointment						int
-Gender-----      Male or Female 										char
-AppointmentDay---Day of actual appointment								date-time
-ScheduledDay-----The day appointment made								date-time
-Age---           Age of the patient										int
-Neighbourhood----Where the appointment takes place						char						
-Scholarship----  Is patient part of social welfare program of Brazil	char
-Hipertension---	 If the patient has Hipertension						char
-Diabetes----	 If the patient has Diabetes							char
-Alcoholism----	 If the patient has Alcoholism							char
-Handcap-----	 If the patient Handcapped								char
-SMS_received---	 If the patient received SMS 							char
-No-show-----	 If the patient showed up for appointment 				char
+![image](https://user-images.githubusercontent.com/55123056/109426497-cd3e3100-79a2-11eb-93b8-171c27b0ca44.png)
+			
+
+<br>
+<br>We have read the csv data into Pandas and turned into dataframe;
+<br>
+<br>
 
 
-We have read the csv data into Pandas and turned into dataframe;
+![image](https://user-images.githubusercontent.com/55123056/109426109-a0891a00-79a0-11eb-9381-e19d67004f83.png)
 
-![]
-
-AppointmentID      int64
-Gender            object
-ScheduledDay      object
-AppointmentDay    object
-Age                int64
-Neighbourhood     object
-Scholarship        int64
-Hipertension       int64
-Diabetes           int64
-Alcoholism         int64
-Handcap            int64
-SMS_received       int64
-No-show           object
-dtype: object
-
-1-After checking all the unique values AppointmentID became index column
+<br>
+<br>1-After checking all the unique values AppointmentID became index column
 
 		len(mans_df.AppointmentID.unique())
 		mans_df.set_index('AppointmentID', inplace = True)
@@ -80,28 +59,31 @@ dtype: object
 
 
 .......................................................................
-Second data file is file we have created by collecting data from Kaggle and google maps. The file contains the neighborhoods median incomes adn lat and long information. This info could help us to crete an interactive map also we could income information for our predictions.
+<br>Second data file is file we have created by collecting data from Kaggle and google maps. The file contains the neighborhoods median incomes adn lat and long information. This info could help us to crete an interactive map also we could income information for our predictions.
+<br>
+<br>Data Directory for "mean_income_of_neighborhoods.csv"
+<br>
+![image](https://user-images.githubusercontent.com/55123056/109426845-818c8700-79a4-11eb-8226-c751609a3efe.png)
 
-Data Directory for "mean_income_of_neighborhoods.csv"
-
-Neighbourhood    name of the Neighbourhood   					str
-Income			 median income for the area  					int
-lat, long        latitude and logitude of the neighborhoood		str
-
+<br>
+<br>
 We have read the file into pandas dataframe as min_df
+<br>
+<br>
+<br>Median Income     int64
+<br>Lat,  Long       object
+<br>dtype: object
 
-Median Income     int64
-Lat,  Long       object
-dtype: object
+<br>Checked for null values 
 
-Checked for null values 
+<br>After data manupulation; a copy of csv file saved to original folder then created connection with PGAdmin uploaded those files as  Appointments and Neighbourhood_data tables.
 
-After data manupulation; a copy of csv file saved to original folder then created connection with PGAdmin uploaded those files as  Appointments and Neighbourhood_data tables.
+<br>mans_df.to_sql------name="Appointments" table 
+<br>min_df.to_sql  ---- name="Neighbourhood_data" table 
+Those 2 tables merged by neighbourhood columns in both tables.
 
-mans_df.to_sql------name="Appointments" table 
-min_df.to_sql  ---- name="Neighbourhood_data" table 
+<br>![](https://github.com/britnijgrimm/group2-project/blob/datamanupulation/pgadmintables.JPG)
 
-Apps merged with Neighbourhood data on
-Appointments. Neighbourhood  Neighbourhood_data.Neighbourhood
+<br>![](https://github.com/britnijgrimm/group2-project/blob/datamanupulation/Tableau_connection.JPG)
 
-![](https://github.com/britnijgrimm/group2-project/blob/datamanupulation/pulling%20data%20from%20sql.JPG)
+
