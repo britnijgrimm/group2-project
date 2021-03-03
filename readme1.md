@@ -101,3 +101,7 @@ After data manupulation; a copy of csv file saved to original folder then create
 mans_df.to_sql------name="Appointments" table 
 min_df.to_sql  ---- name="Neighbourhood_data" table 
 
+Apps merged with Neighbourhood data on
+Appointments. Neighbourhood  Neighbourhood_data.Neighbourhood
+
+![](https://github.com/britnijgrimm/group2-project/blob/datamanupulation/pulling%20data%20from%20sql.JPG)
