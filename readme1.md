@@ -79,6 +79,7 @@ We have read the file into pandas dataframe as min_df
 <br>After data manupulation; a copy of csv file saved to original folder then created connection with PGAdmin uploaded those files as  Appointments and Neighbourhood_data tables.
 
 <br>mans_df.to_sql------name="Appointments" table 
+
 <br>min_df.to_sql  ---- name="Neighbourhood_data" table 
 Those 2 tables merged by neighbourhood columns in both tables.
 
@@ -86,4 +87,7 @@ Those 2 tables merged by neighbourhood columns in both tables.
 
 <br>![](https://github.com/britnijgrimm/group2-project/blob/datamanupulation/Tableau_connection.JPG)
 
+Anyone can pull data from AWS and work with it. Ready to serve.
+
+![](https://github.com/britnijgrimm/group2-project/commit/d6c472df244a09da88099ec0fb3a3539dc448db5)
 
