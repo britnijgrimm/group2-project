@@ -1,4 +1,36 @@
+Skip to content
+secrets.py
+Search or jump to…
 
+Pulls
+Issues
+Marketplace
+Explore
+ 
+@4renginy 
+britnijgrimm
+/
+group2-project
+1
+01
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+More
+group2-project/.gitignore
+@britnijgrimm
+britnijgrimm Merge pull request #20 from britnijgrimm/Data_Plot
+…
+Latest commit 21094ab 3 hours ago
+ History
+ 4 contributors
+@britnijgrimm@MiguelDi@4renginy@mayajaral
+138 lines (111 sloc)  1.82 KB
+  
 config.py
 secrets.py
 
@@ -9,6 +41,9 @@ __pycache__/
 
 #Ds_Store
 .Ds_Store
+
+#Config_Py
+config.py
 
 # C extensions
 *.so
@@ -134,3 +169,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
