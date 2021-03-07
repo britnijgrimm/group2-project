@@ -2,26 +2,30 @@
 ## Group 2: Miguel Diaz, Maya Singh, Ren Yildiz, and Britni Grimm
 *Final Project for Dataviz Bootcamp*
 
-### Communication Protcols
-Because one of our members is located in India, we have been communicating through Slack, WhatsApp, and text message when necessary. We plan to meet one to two times per week via Zoom to discuss challenges, progress and request feedback from the team.
-
 ### Presentation
-[Prelimary Google Slides draft](https://docs.google.com/presentation/d/1KnfV81sn4rcIU7k441lGYwDic_OFUhTXXSnzvUqHuO4/edit?usp=sharing)
+[Working Google Slides Presentation Draft](https://docs.google.com/presentation/d/1KQvsMLWR1pu0SqHGXU11xStyfQeG35imJ3Y69KPRyFs/edit#slide=id.gc56ac6f202_2_5)
+
+### Dashboard
+[Storyboard in Google Slides](https://docs.google.com/presentation/d/1yOO8OgxVIXWpHmmV2ujA7bumW2M0-66zk7i5WoHMizA/edit#slide=id.gc397379e9a_0_118)
 
 [Preliminary Tablaeu Dashboard](https://public.tableau.com/profile/britni.grimm#!/vizhome/BrazilPublicHealthData/Dashboard1?publish=yes)
 
 **Selected topic:** Attendance data for medical appointments in Brazil
 
-**Reason why they selected their topic:** Miguel already had the data set in mind. Medical services are necessary for our health and well-being.
+**Reason why we selected our topic:** One of our team members had pre-selected this dataset. The group agreed that exploring medical appointment attendence data is of the essence with the recent strain COVID-19 has placed on healthcare networks scross the globe.
 
-**Description of their source of data:** Dataset is available on Kaggle. Data provided by Aquarela Advanced Analytics (Brazil).
+**Description of our source of data:** Dataset is available on [Kaggle](https://www.kaggle.com/joniarroba/noshowappointments). Data provided by JoniHoppen with Aquarela Advanced Analytics (Brazil).
 
-**Questions they hope to answer with the data:**
+[License File:](https://www.kaggle.com/joniarroba/noshowappointments)
+
+**Questions we set out to answer through exploratory and machine learning analysis this data:**
 - Which neighborhood regions have higher attendance rates for appointments? Can this predict demand for physician services?
-- If physicians can predict a certain percentage of no-shows for appointments, could they then schedule additional appointments for the day?
-- Can physicians use this data to plan resources?
-- Are there certain medical conditions that make patients more likely to show?
+- Can physicians can predict a certain percentage of no-shows for appointments? Could they then schedule additional appointments for the day?
+- Can physicians use this data to plan resources such as nurses and support staff?
+- Are there certain medical conditions that are more likely to cause patients to miss appointments?
 - Do age or gender correlate to no-show rates?
+- Can we determine if Scholarship ([via Bolsa Família)https://en.wikipedia.org/wiki/Bolsa_Fam%C3%ADlia)) from the encouraging patients to show for appointments?
+- Do returning patients show up more than one-time patients? (This would need more data processing and we can consider it later)
 - Is Scholarship (social welfare programs) from the government encouraging patients to show for appointments?
 - Do regular patients show up more than one-time patients? (This would need more data processing and we can consider it later)
 
@@ -52,6 +56,13 @@ The model of choice is logistic regression. In comparison with random forest reg
 - The factors of Avg_Neighbourhood_income and TimeDelta were added to the dataset. 
 
 ## Model Statistics
+**Accuracy Score: 0.79**
+The model makes an accurate guess of the liklihood of No-Show 79% of the time. 
+**Precision Score: 0.68**
+68% of the positives predicted are accurate.
+***Recall Score: 0.79**
+79% of the total positive predictions are predicted.
+**F1 - Score: 0.71**
 ### Accuracy Score: 0.79
 The model makes an accurate guess of the liklihood of No-Show 79% of the time. 
 ### Precision Score: 0.68
@@ -63,6 +74,7 @@ Indicates a good balance between recall and precision.
 
 The model of choice is logistic regression. In comparison with random forest regression it shows a higher accuracy and a higher f-score. 
 However, when 'Age' as a category is removed, both logistic regression and random forest regression have nearly identical measurements.
+
 
 <h2>Data origin and manupulations for No Show Medical Appointments Group2 project</h2>
 
