@@ -2,11 +2,10 @@
 ## Group 2: Miguel Diaz, Maya Singh, Ren Yildiz, and Britni Grimm
 *Final Project for Dataviz Bootcamp*
 
-### Communication Protcols
-Because one of our members is located in India, we have been communicating through Slack, WhatsApp, and text message when necessary. We plan to meet one to two times per week via Zoom to discuss challenges, progress and request feedback from the team.
-
 ### Presentation
-[Prelimary Google Slides draft](https://docs.google.com/presentation/d/1KnfV81sn4rcIU7k441lGYwDic_OFUhTXXSnzvUqHuO4/edit?usp=sharing)
+[Working Google Slides Presentation Draft](https://docs.google.com/presentation/d/1KQvsMLWR1pu0SqHGXU11xStyfQeG35imJ3Y69KPRyFs/edit#slide=id.gc56ac6f202_2_5)
+
+[Storyboard in Google Slides](https://docs.google.com/presentation/d/1yOO8OgxVIXWpHmmV2ujA7bumW2M0-66zk7i5WoHMizA/edit#slide=id.gc397379e9a_0_118)
 
 [Preliminary Tablaeu Dashboard](https://public.tableau.com/profile/britni.grimm#!/vizhome/BrazilPublicHealthData/Dashboard1?publish=yes)
 
