@@ -1,14 +1,14 @@
 # Final Project
-## Group 2: Miguel Diaz, Maya Singh, Ren Yildiz, and Britni Grimm
+### Group 2: Miguel Diaz, Maya Singh, Ren Yildiz, and Britni Grimm
 *Final Project for Dataviz Bootcamp*
 
-### Presentation
+## Presentation
 [Working Google Slides Presentation Draft](https://docs.google.com/presentation/d/1KQvsMLWR1pu0SqHGXU11xStyfQeG35imJ3Y69KPRyFs/edit#slide=id.gc56ac6f202_2_5)
 
-### Dashboard
+## Dashboard
 [Storyboard in Google Slides](https://docs.google.com/presentation/d/1yOO8OgxVIXWpHmmV2ujA7bumW2M0-66zk7i5WoHMizA/edit#slide=id.gc397379e9a_0_118)
 
-[Preliminary Tablaeu Dashboard](https://public.tableau.com/profile/britni.grimm#!/vizhome/BrazilPublicHealthData/Dashboard1?publish=yes)
+[Preliminary Tableau Dashboard](https://public.tableau.com/profile/britni.grimm#!/vizhome/BrazilPublicHealthData/Dashboard1?publish=yes)
 
 **Selected topic:** Attendance data for medical appointments in Brazil
 
@@ -16,46 +16,43 @@
 
 **Description of our source of data:** Dataset is available on [Kaggle](https://www.kaggle.com/joniarroba/noshowappointments). Data provided by JoniHoppen with Aquarela Advanced Analytics (Brazil).
 
-[License File:](https://www.kaggle.com/joniarroba/noshowappointments)
-
 **Questions we set out to answer through exploratory and machine learning analysis this data:**
 - Which neighborhood regions have higher attendance rates for appointments? Can this predict demand for physician services?
 - Can physicians can predict a certain percentage of no-shows for appointments? Could they then schedule additional appointments for the day?
 - Can physicians use this data to plan resources such as nurses and support staff?
 - Are there certain medical conditions that are more likely to cause patients to miss appointments?
 - Do age or gender correlate to no-show rates?
-- Can we determine if Scholarship ([via Bolsa Família)https://en.wikipedia.org/wiki/Bolsa_Fam%C3%ADlia)) from the encouraging patients to show for appointments?
+- Can we determine if Scholarship via [Bolsa Família](https://en.wikipedia.org/wiki/Bolsa_Fam%C3%ADlia) from the encouraging patients to show for appointments?)
 - Do returning patients show up more than one-time patients? (This would need more data processing and we can consider it later)
-- Is Scholarship (social welfare programs) from the government encouraging patients to show for appointments?
 - Do regular patients show up more than one-time patients? (This would need more data processing and we can consider it later)
 
-# Machine Learning Model
-## Description of preliminary data preprocessing
+## Machine Learning Model
+### Description of preliminary data preprocessing
 For the preliminary preprocessing the 'PatientId', 'AppointmentID', 'ScheduledDay', 'AppointmentDay', 'Neighbourhood' and 'TimeDelta' columns were dropped. The remaining columns all exist in numerical form. 
 
-## Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
-### Processing
+### Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
+**Processing**
 - Our dataframe was loaded into JupyterNotebook from a SQL server after it was pre-processed. The Appointments table from th SQL server was used as our primary dataset. The Avg_Neighbourhood_Data was extracted Neighbourhood_data SQL table and added as a data point. 
 
-### Rejected Features
+**Rejected Features**
 - The initial features selected were the previously processed data that were purely in numerical form. PatientID and Appointment ID would add noise for the regression models as their number values are unlikely to be relevent.  
 
-### Selected Features
+**Selected Features**
 - The selected features of Gender,	Scholarship,	Hipertension,	Diabetes,	Alcoholism,	Handcap, Weekday,	SMS_received, Avg_Neighbourhood_Income and TimeDelta could all plausibly have an impact on the No-Show data and were thus used to make predictions.
 - No-show	data was the variable we were predicting.
 
-## Description of how data was split into training and testing sets
+### Description of how data was split into training and testing sets
 The data was split using the train_test_split function of the sklearn package using a 0.33 training data fraction.
 
-## Explanation of model choice, including limitations and benefits
+### Explanation of model choice, including limitations and benefits
 The model of choice is logistic regression. In comparison with random forest regression it shows a higher accuracy, f1-score and recall while having identical precision scores. 
 
-## Model Training
+### Model Training
 - The logistic regression model has been trained on our training data from the train_test_split.
 - Previously the model was tested on Gender, SCholarship, Hipertension, Diabetes, Alcoholism, Handicap, Weekday and SMS_received data.
 - The factors of Avg_Neighbourhood_income and TimeDelta were added to the dataset. 
 
-## Model Statistics
+### Model Statistics
 **Accuracy Score: 0.79**
 The model makes an accurate guess of the liklihood of No-Show 79% of the time. 
 **Precision Score: 0.68**
@@ -76,13 +73,7 @@ The model of choice is logistic regression. In comparison with random forest reg
 However, when 'Age' as a category is removed, both logistic regression and random forest regression have nearly identical measurements.
 
 
-<h2>Data origin and manupulations for No Show Medical Appointments Group2 project</h2>
-
-The dataset we used is from Kaggle.com provided by JoniHoppen 
-link to the data: ttps://www.kaggle.com/joniarroba/noshowappointments
-Link to the license file: License:https://www.kaggle.com/joniarroba/noshowappointments
-
-
+## Data pre-processing for No Show Medical Appointments
 
 <br>Uploaded the data to Amazon servers using S3
 Data Header	Data Meaning				Type
