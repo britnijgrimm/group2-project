@@ -8,7 +8,7 @@
 ## Dashboard
 [Storyboard in Google Slides](https://docs.google.com/presentation/d/1yOO8OgxVIXWpHmmV2ujA7bumW2M0-66zk7i5WoHMizA/edit#slide=id.gc397379e9a_0_118)
 
-[Preliminary Tableau Dashboard](https://public.tableau.com/profile/britni.grimm#!/vizhome/BrazilPublicHealthData/Dashboard1?publish=yes)
+[Preliminary Tableau Dashboard](https://public.tableau.com/profile/ren5313#!/vizhome/NeighbourhoodData/AgevsNo_sh0w?publish=yes)
 
 **Selected topic:** Attendance data for medical appointments in Brazil
 
