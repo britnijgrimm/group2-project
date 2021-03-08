@@ -17,6 +17,8 @@ Lattidue and Longitude field needed some attention.  We had to split lat,long fi
 
 Then we created different dashbords with income, age, gender, vs No show data and created our storybord. 
 You can access the dashbourd at following address.
+![tableau_map](https://github.com/britnijgrimm/group2-project/blob/dashbord/screenshots/Neighbourhood%20Info.JPG)
+<br>
 
 [Tableau_Public](https://public.tableau.com/profile/ren5313#!/vizhome/NeighbourhoodData/AgevsNo_sh0w?publish=yes)
 
