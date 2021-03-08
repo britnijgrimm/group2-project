@@ -4,6 +4,7 @@
 
 After completing all the connections and they are working we have started working on our dashbard and visuals.
 
+![](https://github.com/britnijgrimm/group2-project/blob/dashbord/group2.pdf)
   
   ### Pulling Data and Woking with Data 
 
@@ -14,7 +15,7 @@ Lattidue and Longitude field needed some attention.  We had to split lat,long fi
 Then we created different dashbords with income, age, gender, vs No show data and created our storybord. 
 You can access the dashbourd at following address.
 
-[](https://public.tableau.com/profile/ren5313#!/vizhome/NeighbourhoodData/AgevsNo_sh0w?publish=yes)
+[Tableau_Public](https://public.tableau.com/profile/ren5313#!/vizhome/NeighbourhoodData/AgevsNo_sh0w?publish=yes)
 
 
 
