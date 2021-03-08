@@ -3,8 +3,7 @@
 ### Creating interactive dashbord for presentation 
 
 After completing all the connections and they are working we have started working on our dashbard and visuals.
-
-![](https://github.com/britnijgrimm/group2-project/blob/dashbord/group2.pdf)
+[Full data schema](https://github.com/britnijgrimm/group2-project/blob/dashbord/group2.pdf)
   
   ### Pulling Data and Woking with Data 
 
