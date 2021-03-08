@@ -26,6 +26,6 @@ You can access the dashbourd at following address.
 <br>
 
 
-
+If you look at the data you will recognize that income, age , sex are the top data points affecting the cancelations. The topic will be expalined in details in our main presentaion.
 
 
