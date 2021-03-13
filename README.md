@@ -3,7 +3,7 @@
 *Final Project for Dataviz Bootcamp*
 
 ## Presentation
-[Working Google Slides Presentation Draft](https://docs.google.com/presentation/d/1KQvsMLWR1pu0SqHGXU11xStyfQeG35imJ3Y69KPRyFs/edit#slide=id.gc56ac6f202_2_5)
+[Presentation](https://docs.google.com/presentation/d/1KQvsMLWR1pu0SqHGXU11xStyfQeG35imJ3Y69KPRyFs/edit#slide=id.gc56ac6f202_2_5)
 
 **Selected topic:** Attendance data for medical appointments in Brazil
 
@@ -23,7 +23,7 @@
 ## Dashboard
 [Storyboard in Google Slides](https://docs.google.com/presentation/d/1yOO8OgxVIXWpHmmV2ujA7bumW2M0-66zk7i5WoHMizA/edit#slide=id.gc397379e9a_0_118)
 
-[Tableau Dashbaord](https://public.tableau.com/profile/ren5313#!/vizhome/NeighbourhoodData/AgevsNo_sh0w?publish=yes)
+[Tableau Dashbaord](https://public.tableau.com/profile/britni.grimm#!/vizhome/NeighbourhoodData_16152641297450/FinalDash?publish=yes)
 
 After designing and confirming the connections we have started working on our dashbard and visuals.
 
