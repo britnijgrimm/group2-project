@@ -1,7 +1,16 @@
+config.py
+secrets.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+#Ds_Store
+.Ds_Store
+
+#Config_Py
+config.py
 
 # C extensions
 *.so
@@ -127,3 +136,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
