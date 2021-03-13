@@ -166,3 +166,4 @@ We have read the file into pandas dataframe as min_df
 <br>![](https://github.com/britnijgrimm/group2-project/blob/datamanupulation/pgadmintables.JPG)
 
 <br>![](https://github.com/britnijgrimm/group2-project/blob/datamanupulation/Tableau_connection.JPG)
+
